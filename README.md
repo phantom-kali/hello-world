@@ -3,7 +3,7 @@
 import random
 
 def guesser():
-	passwdlst= ['123', 'p@ssword']
+	passwdlst= [input("Enter a list of passwords")]
 	
 	todays_password= random.choice(passwdlst)
 	print(todays_password)
